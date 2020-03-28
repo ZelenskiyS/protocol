@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+.header {
+  width: 100vw;
+  font-family: "Roboto", sans-serif;
+  height: 112px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1440px;
+  padding: 0 150px 0 150px;
+}
+.header_logo {
+  background-image: url("img/logo_Protocol.svg");
+  width: 223.85px;
+  height: 69.67px;
+  margin-right: 23px;
+}
+.header_langChoose {
+  box-sizing: border-box;
+  width: 60px;
+  height: 40px;
+  margin-right: 13px;
+  background: #F5F5F5;
+  box-shadow: 3px 3px 80px rgba(55, 84, 170, 0.1), -3px -3px 80px #FFFFFF, inset 4px 4px 20px rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding: 0 7.2px 0 7.2px;
+  justify-content: space-between;
+}
+.header_langChoose__lang {
+  font-size: 16px;
+}
+.header_langChoose__arrow {
+  background-image: url("img/angle-arrow-down.svg");
+  width: 10.8px;
+  height: 6.25px;
+}
+.header_search {
+  display: flex;
+  width: 420px;
+  height: 40px;
+  box-sizing: border-box;
+  margin-right: 114px;
+}
+.header_search__searchButton {
+  width: 40px;
+  border: 1px solid #D8D8D8;
+  border-right: none;
+  box-sizing: border-box;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px 0 0 4px;
+  cursor: pointer;
+  font-size: 20px;
+  background: #F7F7F7 url("img/search (2) 1.svg") no-repeat center;
+}
+.header_search__searchTerm {
+  width: 100%;
+  border: 1px solid #D8D8D8;
+  background: #F7F7F7;
+  border-left: none;
+  padding: 5px;
+  border-radius: 0 5px 5px 0;
+  outline: none;
+  color: black;
+}
+.header_registration {
+  background: #F2C25B;
+  border-radius: 4px;
+  width: 177px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  transition: 0.4s;
+  margin-right: 17px;
+}
+.header_registration:hover {
+  background: #FFCC60;
+}
+.header_enter {
+  background: #BD462B;
+  border-radius: 4px;
+  width: 80px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: white;
+  transition: 0.4s;
+}
+.header_enter:hover {
+  background: #B62C0C;
+}
+
+/*# sourceMappingURL=header.css.map */
